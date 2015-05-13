@@ -1,7 +1,7 @@
 port:  5000
 markdown: kramdown
 name: 上海・开放数据
-url: 
+url: shanghai.opendatachina.com
 title: 上海・开放数据
 description: 上海・开放数据
 encoding: utf-8
