@@ -9,7 +9,7 @@ timezone: China/Beijing
 permalink: /:categories/:title
 navigation:
 - text: 2014-2015数据释放计划
-  url: /index.html
+  url: index.html
 - text: 关于
   url: about.html
 
