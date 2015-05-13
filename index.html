@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="col-md-3">
+	<div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-query-ParamName="dataset" data-ex-facet-Label="数据集名称搜索"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".organization" data-ex-facet-Label="发布机构" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".year" data-ex-facet-Label="计划年份" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".format" data-ex-facet-Label="开放格式" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".released" data-ex-facet-Label="是否已开放？" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+</div>
+
+
+<div class="col-md-9">
+	<img src="favicon.jpg" class="pull-right" alt="开放数据中国"/>
+	 <p class="lead">「上海・开放数据」是<a href="http://opendatachina.com">开放数据中国</a>网络下的实验项目，目的在于将上海开放数据的进展透明化，让更多人了解上海政府在开放数据项目上所做过的、正在做的、将要做的努力，也希望通过该网站将民众的意见收集从而形成良好的反馈圈。</p>
+	 <p>
+	     此处上海政府开放数据计划清单提取自上海市经济和信息化委员会在2014年和2015年分别所发布的「上海市政务数据资源共享和开放年度工作计划」。
+	 </p>
+
+	 <p>
+	     整合版数据（有部分字段缺失）：<a href="./archiveddata/shanghai.csv">CSV版本</a>，<a href="./archiveddata/shanghai.xlsx">XLSX版本</a>
+	 </p>
+	 <p>
+	     2014原始版数据：<a href="./archiveddata/shanghai-2014.csv">CSV版本</a>，<a href="./archiveddata/shanghai-2014.xlsx">XLSX版本</a>
+	 </p>
+	 <p>
+	     2015原始版数据：<a href="./archiveddata/shanghai-2015.csv">CSV版本</a>，<a href="./archiveddata/shanghai-2015.xlsx">XLSX版本</a>
+	 </p>
+
+
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div data-ex-role="viewPanel" class="details">
+				<div data-ex-role="exhibit-view" data-ex-paginate="true">
+					 <div data-ex-role="lens" class="publication" style="display: none;">
+	                     <div class="publication-item">
+	                     	<h3><span data-ex-content=".dataset"></span>(<span data-ex-content=".year"></span>计划发布)</h3>
+
+	                     	<div class="publication-authors"><strong>发布机构</strong>：<span data-ex-content=".organization"></span></div>
+	                        
+	                        <div class="abstract"><strong>描述</strong>：<span data-ex-content=".description"></span></div>
+
+	                        <div class="abstract"><strong>开放格式</strong>：<span data-ex-content=".format"></span></div>
+
+	                        <div class="abstract"><strong>开放状态</strong>：<span data-ex-content=".released"></span></div>
+
+	                     </div>
+	                 </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

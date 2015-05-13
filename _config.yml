@@ -1,0 +1,15 @@
+port:  5000
+markdown: kramdown
+name: 上海・开放数据
+url: 
+title: 上海・开放数据
+description: 上海・开放数据
+encoding: utf-8
+timezone: China/Beijing
+permalink: /:categories/:title
+navigation:
+- text: 2014-2015数据释放计划
+  url: /index.html
+- text: 关于
+  url: /about.html
+
