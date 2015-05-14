@@ -1,9 +1,9 @@
 port:  5000
 markdown: kramdown
-name: 上海・开放数据
+name: 上海・开放数据观察
 url: city.opendatachina.com/shanghai
-title: 上海・开放数据
-description: 上海・开放数据
+title: 上海・开放数据观察
+description: 上海・开放数据观察
 encoding: utf-8
 timezone: China/Beijing
 permalink: /:categories/:title
