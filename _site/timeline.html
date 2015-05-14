@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<head>
+   <title>上海・开放数据</title>
+  <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/city.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <!-- BEGIN TimelineJS -->
+    <script type="text/javascript" src="./js/timeline/build/js/storyjs-embed.js"></script>
+    <script>
+        $(document).ready(function() {
+            createStoryJS({
+                type:       'timeline',
+
+                height:     '600',
+                source:     './shanghai-timeline.json',
+                embed_id:   'shanghai',
+                lang: 'zh-cn'
+            });
+        });
+    </script>
+    <!-- END TimelineJS -->
+</head>
+<body>
+<!-- Fixed navbar -->
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="container">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button> <a class="navbar-brand" href="index.html">上海・开放数据</a>
+     </div>
+     <div id="navbar" class="navbar-collapse collapse">
+       <ul class="nav navbar-nav">
+        
+        
+        
+
+        <li class="">
+          <a href="index.html">2014-2015数据释放计划</a>
+        </li>
+        
+        
+        
+
+        <li class="">
+          <a href="timeline.html">发展历程</a>
+        </li>
+        
+        
+        
+
+        <li class="">
+          <a href="data.html">资源下载</a>
+        </li>
+        
+        
+        
+
+        <li class="">
+          <a href="about.html">关于</a>
+        </li>
+        
+       </ul>
+     </div><!--/.nav-collapse -->
+   </div>
+ </nav>
+
+
+<div class="container">
+
+
+  <div id="shanghai">
+
+<div>
+
+</div>
+
+
+
+</body>
+
+
+
+</html>
