@@ -3,8 +3,10 @@
 
 <head>
    <title>上海・开放数据观察</title>
-  <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="css/city.css" rel="stylesheet">
 
     <script src="http://api.simile-widgets.org/exhibit/STABLE/exhibit-api.js" ></script>
@@ -44,6 +46,13 @@
         
 
         <li class="">
+          <a href="dashboard.html">进展情况</a>
+        </li>
+        
+        
+        
+
+        <li class="">
           <a href="data.html">资源下载</a>
         </li>
         
@@ -64,10 +73,20 @@
 
 
   <div class="col-md-3">
-	<div id="progress">
-	</div>
-	<script src="http://echarts.baidu.com/build/dist/echarts.js"></script>
-
+	
+		<div class="panel panel-danger">
+			<div class="panel-heading">
+				<div class="row">
+				    
+					<div class="col-xs-12 text-center">
+					    <div class="huge">9%(54)</div>
+					    <div>计划达成率</div>
+					</div>
+				</div>
+			</div>
+                      
+        </div>
+	
 
 	<div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-query-ParamName="dataset" data-ex-facet-Label="数据集名称搜索"></div>
 
@@ -84,18 +103,13 @@
 
 
 <div class="col-md-9">
-	<img src="favicon.jpg" class="pull-right" alt="开放数据中国"/>
+	<div class="jumbotron">
+	<img src="favicon.jpg" class="pull-right" alt="开放数据中国" style="padding-left:20px"/>
 	 <p class="lead">「上海・开放数据观察」是<a href="http://opendatachina.com">开放数据中国</a>网络下的实验项目，目的在于将上海开放数据的进展透明化，让更多人了解上海政府在开放数据项目上所做过的、正在做的、将要做的努力，也希望通过该网站将民众的意见收集从而形成良好的反馈圈。</p>
 	 <p>
-	     此处上海政府开放数据计划清单提取自上海市经济和信息化委员会在<a href="http://www.sheitc.gov.cn/xxfw/663291.htm" taget="_blank">2014年</a>和<a href="http://www.sheitc.gov.cn/xxfw/666562.htm" taget="_blank">2015</a>年分别所发布的「上海市政务数据资源共享和开放年度工作计划」。
+	     此处上海政府开放数据计划清单提取自上海市经济和信息化委员会在<a href="http://www.sheitc.gov.cn/xxfw/663291.htm" taget="_blank">2014年</a>和<a href="http://www.sheitc.gov.cn/xxfw/666562.htm" taget="_blank">2015年</a>分别所发布的「上海市政务数据资源共享和开放年度工作计划」。
 	 </p>
-
-	<div class="progress" >
-		<div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuenow="9" aria-valuemax="100" style="width:9%;min-width:20%">
-			 完成目标 9% （54/618）
-		</div>
-	</div>
-
+	 </div>
 	 
 	<div class="panel panel-default">
 		<div class="panel-body">

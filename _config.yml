@@ -12,6 +12,8 @@ navigation:
   url: index.html
 - text: 发展历程
   url: timeline.html
+- text: 进展情况 
+  url: dashboard.html
 - text: 资源下载
   url: data.html
 - text: 关于

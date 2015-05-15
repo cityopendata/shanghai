@@ -50,3 +50,12 @@ ol.exhibit-tileView-body {
     vertical-align: baseline;
     border-radius: .25em;
 }
+
+.huge {
+    font-size: 40px;
+}
+
+.ptitle {
+    font-size: 18px;
+
+}
