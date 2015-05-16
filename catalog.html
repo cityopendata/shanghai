@@ -1,0 +1,63 @@
+---
+layout: exhibit
+file: "shanghaidata.csv"
+---
+
+<div class="col-md-3">
+	
+	<div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-query-ParamName="dataset" data-ex-facet-Label="数据集名称搜索"></div>
+
+	<div data-ex-role="facet" data-ex-facet-class="TextSearch" data-ex-query-ParamName="description" data-ex-facet-Label="数据描述搜索"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".organization" data-ex-facet-Label="发布机构" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".category" data-ex-facet-Label="分类" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".format" data-ex-facet-Label="开放格式" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".update_frequency" data-ex-facet-Label="更新频率" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".updated_on_time" data-ex-facet-Label="是否按时更新？" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".external" data-ex-facet-Label="外链？" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+	<div data-ex-role="facet" data-ex-expression=".num_of_files" data-ex-facet-Label="数据文件个数" data-ex-show-missing="false" data-ex-sort-Mode="count"></div>
+
+</div>
+
+
+<div class="col-md-9">
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<div data-ex-role="viewPanel" class="details">
+				<div data-ex-role="exhibit-view" data-ex-paginate="true" data-ex-
+show-toolbox="false">
+					 <div data-ex-role="lens" class="publication" style="display: none;">
+	                     <div class="publication-item">
+	                     	<h3><a data-ex-href-content=".url" target="_blank"><span data-ex-content=".title"></span></a></h3>
+
+	                     	<div class="publication-authors"><strong>发布机构</strong>：<span data-ex-content=".organization"></span></div>
+	                        
+	                        <div class="abstract"><strong>描述</strong>：<span data-ex-content=".desc"></span></div>
+
+	                        <div class="abstract"><strong>分类</strong>：<span class="label label-info " data-ex-content=".category" style="font-size:14px"></span></div>
+
+	                        <div class="abstract"><strong>标签</strong>：<span data-ex-content=".tag"></span></div>
+
+	                        <div class="abstract"><strong>开放格式</strong>：<span data-ex-content=".format"></span></div>
+
+	                        <div class="abstract"><strong>发布时间</strong>：<span data-ex-content=".publication_date"></span></div>
+
+	                        <div class="abstract"><strong>更新时间</strong>：<span data-ex-content=".updated_date"></span></div>
+
+	                        
+
+	                     </div>
+	                 </div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
