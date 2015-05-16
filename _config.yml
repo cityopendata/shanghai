@@ -18,6 +18,8 @@ navigation:
   url: catalog.html
 - text: 资源下载
   url: data.html
+- text: 参与贡献
+  url: https://github.com/cityopendata/shanghai
 - text: 关于
   url: about.html
 
